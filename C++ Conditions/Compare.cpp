@@ -52,5 +52,15 @@ int main(){
     }else{
         cout << "False" << endl;
     }
+
+    if((i != 10 && j !=10) || (i == 10 && j ==20)){
+        cout << "True" << endl;
+    }else{
+        cout << "False" << endl;
+    }
+
+    bool result = (i == 10 && j != 10);
+
+    cout << result << endl;
     return 0;
 }
