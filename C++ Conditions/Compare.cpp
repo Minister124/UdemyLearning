@@ -42,5 +42,15 @@ int main(){
     {
         cout << "i is not less than j" << endl;
     }
+    if(i<j && i == 10){ //both conditions are true, output is true, This is Logical AND condition
+        cout << "True" << endl;
+    }else{
+        cout << "False" << endl;
+    }
+    if (i<j || i != 10){ //only one condition is true, still the output is true. This is logical OR condition
+        cout << "True" << endl;
+    }else{
+        cout << "False" << endl;
+    }
     return 0;
 }
