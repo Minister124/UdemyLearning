@@ -2,9 +2,12 @@
 using namespace std;
 
 int main(){
-    while (true)
+
+    int i = 0;
+    while (i <= 5)
     {
-        cout <<"Infinite Loop" << endl;
+        cout <<"Not so Infinite Loop" << endl;
+        i++;
     }
-    
+    cout << "Program Qutting" << endl;
 }
