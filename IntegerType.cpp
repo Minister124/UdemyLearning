@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(){
+    int test = 0;
     int value = 2646;
     cout << value << endl;
     cout << INT_MAX << endl;
